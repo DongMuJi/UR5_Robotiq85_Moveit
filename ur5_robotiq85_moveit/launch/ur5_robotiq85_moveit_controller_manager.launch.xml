@@ -1,0 +1,6 @@
+<launch>
+
+  <param name="moveit_controller_manager" value="moveit_simple_controller_manager/MoveItSimpleControllerManager" />
+  <rosparam file="$(find ur5_robotiq85_moveit)/config/controllers.yaml"/>
+
+</launch>
